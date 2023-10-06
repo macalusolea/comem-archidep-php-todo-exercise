@@ -5,7 +5,9 @@
 // "http://localhost:8888/comem-archidep-php-todo-exercise/", then BASE_URL
 // should be "/comem-archidep-php-todo-exercise/". If you are accessing the
 // application at "http://localhost:8888", then BASE_URL should be "/".
-define('BASE_URL', 'http://localhost/comem-archidep-php-todo-exercise/');
+
+// NOTE COMPLEMENTAIRE : Modification de l'URL et des ports MAMP pour que tous les membres du groupe aient accès sans erreur sur le code
+define('BASE_URL', 'http://127.0.0.1:5500/comem-archidep-php-todo-exercise/');
 
 // Database connection parameters.
 define('DB_USER', 'todolist');
